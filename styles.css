@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Glitch';
+    src: url('RubikGlitch-Regular.ttf') format('truetype');
+}  
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    font-family: Glitch;
+    vertical-align:baseline;
+} 
+body {
+    background-color: #181818;
+    color: gold;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-top:20px;
+}
+#content {
+    margin-top:20px;
+}
+img {
+    display: block;
+    margin: auto;
+}
+header {
+    background-color: #181818;
+    padding: 10px 0;
+    text-align: center;
+}
+header a, header img {
+    display: inline-block;
+    vertical-align: middle;
+}
+header a {
+    color: gold;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+header a i {
+    font-size: 40px;
+}
